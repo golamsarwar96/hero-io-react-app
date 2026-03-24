@@ -39,7 +39,7 @@ const NavBar = () => {
         </div>
         <div className="flex justify-center items-center gap-2">
           <img className="w-10 h-10" src={logoImg} alt="" />
-          <h1 className="bg-gradient-to-r from-[#632EE3] to-[#6c3bb1] bg-clip-text text-transparent font-primary font-bold text-xl ">
+          <h1 className="bg-gradient-to-r from-[#381a7e] to-[#6c3bb1] bg-clip-text text-transparent font-primary font-bold text-xl ">
             Hero.IO
           </h1>
         </div>
