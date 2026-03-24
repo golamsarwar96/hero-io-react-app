@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://i.ibb.co.com/pBm1Dk2w/img1.png",
+    "title": "ZenFlow",
+    "companyName": "Mindful Tech Labs",
+    "id": 101,
+    "description": "A minimalist meditation and productivity timer designed to reduce burnout and increase focus.",
+    "size": 42,
+    "reviews": 12500,
+    "ratingAvg": 4.8,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 10500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yBqY6Ckn/img2.png",
+    "title": "CryptoVault",
+    "companyName": "SecureChain Inc.",
+    "id": 102,
+    "description": "Securely manage your digital assets with hardware-grade encryption and real-time market tracking.",
+    "size": 115,
+    "reviews": 8900,
+    "ratingAvg": 4.2,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rKQ206cT/Gemini-Generated-Image-ke0iiike0iiike0i.png",
+    "title": "RecipeRun",
+    "companyName": "Gourmet Apps",
+    "id": 103,
+    "description": "AI-powered meal planning that generates shopping lists based on your dietary preferences.",
+    "size": 68,
+    "reviews": 21000,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9Hrz3437/Gemini-Generated-Image-d0g3shd0g3shd0g3.png",
+    "title": "PixelPro Editor",
+    "companyName": "Creative Suite",
+    "id": 104,
+    "description": "Professional-grade photo editing with RAW support and advanced layer management.",
+    "size": 210,
+    "reviews": 45000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q3jChfCv/Gemini-Generated-Image-2vnm162vnm162vnm.png",
+    "title": "FitTrack Pro",
+    "companyName": "BioMetric Systems",
+    "id": 105,
+    "description": "Connects to your wearable devices to provide deep insights into your sleep and cardiac health.",
+    "size": 85,
+    "reviews": 3200,
+    "ratingAvg": 3.9,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b52bXsMz/Gemini-Generated-Image-42xedd42xedd42xe.png",
+    "title": "LangLeap",
+    "companyName": "Polyglot Labs",
+    "id": 106,
+    "description": "Learn over 50 languages through immersive stories and interactive voice recognition.",
+    "size": 130,
+    "reviews": 78000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 56000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jPRVWFK1/Gemini-Generated-Image-yyrkevyyrkevyyrk.png",
+    "title": "StarGazer AR",
+    "companyName": "Cosmic Innovations",
+    "id": 107,
+    "description": "Point your phone at the sky to identify planets, stars, and constellations in real-time.",
+    "size": 350,
+    "reviews": 15600,
+    "ratingAvg": 4.9,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tpgVM86k/Gemini-Generated-Image-wpa6q6wpa6q6wpa6.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinFree Solutions",
+    "id": 108,
+    "description": "Automate your savings and track every penny with intuitive charts and bank syncing.",
+    "size": 55,
+    "reviews": 9400,
+    "ratingAvg": 4.3,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YBj77JM2/Gemini-Generated-Image-squalisqualisqua.png",
+    "title": "SwiftCode Mobile",
+    "companyName": "DevTools Corp",
+    "id": 109,
+    "description": "The most powerful IDE for your mobile device, supporting Python, JS, and Rust.",
+    "size": 190,
+    "reviews": 1800,
+    "ratingAvg": 4.1,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/SpJScgB/Gemini-Generated-Image-w9zoiiw9zoiiw9zo.png",
+    "title": "TrailBlazer",
+    "companyName": "Outdoor Adventures",
+    "id": 110,
+    "description": "Offline maps and GPS tracking for hikers, mountain bikers, and explorers.",
+    "size": 220,
+    "reviews": 25000,
+    "ratingAvg": 4.4,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kx562bN0/Gemini-Generated-Image-ah6l59ah6l59ah6l.png",
+    "title": "Vortex Gaming",
+    "companyName": "Nebula Games",
+    "id": 111,
+    "description": "A cloud gaming platform that lets you play AAA titles on your smartphone.",
+    "size": 45,
+    "reviews": 62000,
+    "ratingAvg": 3.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6cFjRLXt/Gemini-Generated-Image-5cgxrs5cgxrs5cgx.png",
+    "title": "EcoScan",
+    "companyName": "GreenWorld Org",
+    "id": 112,
+    "description": "Scan barcodes to check the environmental impact and sustainability rating of products.",
+    "size": 38,
+    "reviews": 4100,
+    "ratingAvg": 4.5,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 2400 }
+    ]
+  }
+]

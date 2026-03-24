@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="text-center space-y-4 mt-12 flex flex-col justify-center items-center">
       <h1 className="text-6xl font-bold">
         We Build{" "}
-        <span className="bg-gradient-to-r from-[#381a7e] to-[#6c3bb1] bg-clip-text text-transparent font-primary font-bold">
+        <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-primary font-bold">
           Productive
         </span>{" "}
         Apps
