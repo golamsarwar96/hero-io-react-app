@@ -1,8 +1,10 @@
 import React, { Suspense, useEffect, useState } from "react";
 import SingleApp from "./SingleApp";
+import { Link, useNavigate } from "react-router";
 
 const Apps = ({ appsData }) => {
   const [allApps, setAllApps] = useState([]);
+  const navigate = useNavigate();
 
   // useEffect(() => {
   //   fetch("apps.json")
@@ -29,7 +31,12 @@ const Apps = ({ appsData }) => {
       </div>
 
       <div className="flex justify-center my-8">
-        <button className="btn px-7 py-5 text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+        <button
+          onClick={() => {
+            navigate("/apps");
+          }}
+          className="btn px-7 py-5 text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"
+        >
           See More
         </button>
       </div>
