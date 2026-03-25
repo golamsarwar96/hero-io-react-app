@@ -1,6 +1,5 @@
 import { faStar, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { use } from "react";
 import { Link } from "react-router";
 
 //     "image": "https://i.ibb.co.com/pBm1Dk2w/img1.png",
