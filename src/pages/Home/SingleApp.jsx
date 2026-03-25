@@ -1,6 +1,7 @@
 import { faStar, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { use } from "react";
+import { Link } from "react-router";
 
 //     "image": "https://i.ibb.co.com/pBm1Dk2w/img1.png",
 //     "title": "ZenFlow",
@@ -21,26 +22,28 @@ import { use } from "react";
 
 const SingleApp = ({ app }) => {
   return (
-    <div className="p-3 shadow-2xl">
-      <div>
-        <img
-          className="w-[340px] h-[260px] object-cover"
-          src={app.image}
-          alt={app.id}
-        />
+    <Link to={`appDetails/${app.id}`}>
+      <div className="p-3 shadow-2xl">
+        <div>
+          <img
+            className="w-[340px] h-[260px] object-cover"
+            src={app.image}
+            alt={app.id}
+          />
+        </div>
+        <h1 className="mt-1 text-lg font-medium">{app.title}</h1>
+        <div className="flex justify-between mt-2">
+          <h1 className="text-lg text-[#00D390]">
+            <FontAwesomeIcon className="text-[#00D390]" icon={faThumbsUp} />
+            {app.downloads}
+          </h1>
+          <h1 className="text-[#FF8811]">
+            <FontAwesomeIcon className="text-[#FF8811]" icon={faStar} />
+            {app.ratingAvg}
+          </h1>
+        </div>
       </div>
-      <h1 className="mt-1 text-lg font-medium">{app.title}</h1>
-      <div className="flex justify-between mt-2">
-        <h1 className="text-lg text-[#00D390]">
-          <FontAwesomeIcon className="text-[#00D390]" icon={faThumbsUp} />
-          {app.downloads}
-        </h1>
-        <h1 className="text-[#FF8811]">
-          <FontAwesomeIcon className="text-[#FF8811]" icon={faStar} />
-          {app.ratingAvg}
-        </h1>
-      </div>
-    </div>
+    </Link>
   );
 };
 

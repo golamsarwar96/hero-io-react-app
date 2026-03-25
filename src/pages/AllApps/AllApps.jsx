@@ -5,6 +5,7 @@ import { useState } from "react";
 const AllApps = () => {
   const [search, setSearch] = useState("");
   console.log(search);
+
   const appData = useLoaderData();
   console.log(appData);
 
@@ -22,7 +23,9 @@ const AllApps = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
       <div className="flex justify-between mt-5 p-3">
-        <h1 className="text-xl font-semibold">({appData.length}) Apps Found</h1>
+        <h1 className="text-xl font-semibold">
+          ({filteredData.length}) Apps Found
+        </h1>
         <div>
           <label className="input">
             <svg

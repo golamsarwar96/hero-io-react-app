@@ -42,20 +42,24 @@ const NavBar = () => {
             {links}
           </ul>
         </div>
-        <div className="flex justify-center items-center gap-2">
-          <img className="w-10 h-10" src={logoImg} alt="" />
-          <h1 className="bg-gradient-to-r from-[#381a7e] to-[#6c3bb1] bg-clip-text text-transparent font-primary font-bold text-xl ">
-            Hero.IO
-          </h1>
-        </div>
+        <Link to="/">
+          <div className="flex justify-center items-center gap-2">
+            <img className="w-10 h-10" src={logoImg} alt="" />
+            <h1 className="bg-gradient-to-r from-[#381a7e] to-[#6c3bb1] bg-clip-text text-transparent font-primary font-bold text-xl ">
+              Hero.IO
+            </h1>
+          </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
-          <FontAwesomeIcon className="text-xl" icon={faGithub} /> Contribute
-        </a>
+        <Link to="https://github.com/golamsarwar96">
+          <a className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+            <FontAwesomeIcon className="text-xl" icon={faGithub} /> Contribute
+          </a>
+        </Link>
       </div>
     </div>
   );
