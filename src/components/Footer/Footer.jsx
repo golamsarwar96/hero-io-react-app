@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex justify-center items-center gap-2">
           <img className="w-10 h-10" src={logoImg} alt="" />
           <h1 className="text-white font-primary font-bold text-xl ">
-            Hero.IO
+            Soft.IO
           </h1>
         </div>
         <div>
@@ -30,7 +30,7 @@ const Footer = () => {
       </footer>
       <div className="text-center text-white/70">
         <hr className="text-white/80" />
-        <p className="p-4">Copyright © 2025 - All right reserved by Hero.IO</p>
+        <p className="p-4">Copyright © 2025 - All right reserved by Soft.IO</p>
       </div>
     </div>
   );

@@ -3,8 +3,12 @@ import download from "../../assets/icon-downloads.png";
 import rating from "../../assets/icon-ratings.png";
 import review from "../../assets/icon-review.png";
 import AppsChart from "./AppsChart";
+import { useState } from "react";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
+  const [installed, setInstalled] = useState(false);
+  console.log(installed);
   const { id } = useParams();
   const appId = parseInt(id);
   const appData = useLoaderData();
@@ -13,6 +17,11 @@ const AppDetails = () => {
   console.log(singleApp);
 
   console.log(id, appData);
+
+  const handleInstall = () => {
+    setInstalled(!installed);
+    toast.success("App Installed");
+  };
   return (
     <div className="space-y-5 mt-10">
       <div className="flex items-center flex-col md:flex-row gap-9">
@@ -68,8 +77,12 @@ const AppDetails = () => {
             </div>
           </div>
           <div className="flex md:justify-start justify-center items-center">
-            <button className="bg-[#00D390] text-white px-7 py-3 mt-3 font-bold">
-              Install Now ({singleApp.size} MB)
+            <button
+              onClick={() => handleInstall()}
+              disabled={installed}
+              className="bg-[#00D390] text-white px-7 py-3 mt-3 font-bold cursor-pointer"
+            >
+              {installed ? `Installed` : "Install Now (${singleApp.size} MB)"}
             </button>
           </div>
         </div>

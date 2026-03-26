@@ -1,17 +1,34 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logoImg from "../../assets/logo.png";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 const NavBar = () => {
   const links = (
     <>
-      <Link to="/">
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "text-violet-700 underline" : "text-black"
+        }
+        to="/"
+      >
         <li className="m-2 font-semibold">Home</li>
-      </Link>
-      <Link to="/apps">
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "text-violet-700 underline" : "text-black"
+        }
+        to="/apps"
+      >
         <li className="m-2 font-semibold">Apps</li>
-      </Link>
-      <li className="m-2 font-semibold">Installation</li>
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          isActive ? "text-violet-700 underline" : "text-black"
+        }
+        to="installation"
+      >
+        <li className="m-2 font-semibold">Installation</li>
+      </NavLink>
     </>
   );
   return (
@@ -46,7 +63,7 @@ const NavBar = () => {
           <div className="flex justify-center items-center gap-2">
             <img className="w-10 h-10" src={logoImg} alt="" />
             <h1 className="bg-gradient-to-r from-[#381a7e] to-[#6c3bb1] bg-clip-text text-transparent font-primary font-bold text-xl ">
-              Hero.IO
+              Soft.IO
             </h1>
           </div>
         </Link>
@@ -56,9 +73,9 @@ const NavBar = () => {
       </div>
       <div className="navbar-end">
         <Link to="https://github.com/golamsarwar96">
-          <a className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
+          <button className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
             <FontAwesomeIcon className="text-xl" icon={faGithub} /> Contribute
-          </a>
+          </button>
         </Link>
       </div>
     </div>
