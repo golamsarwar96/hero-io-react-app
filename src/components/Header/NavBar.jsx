@@ -72,7 +72,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <Link to="https://github.com/golamsarwar96">
+        <Link target="_blank" to="https://github.com/golamsarwar96">
           <button className="btn text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
             <FontAwesomeIcon className="text-xl" icon={faGithub} /> Contribute
           </button>

@@ -88,10 +88,12 @@ const AppDetails = () => {
         </div>
       </div>
       <hr className="text-black/60" />
+      <h1 className="text-black/90 font-bold text-xl">Ratings: </h1>
+
       <AppsChart singleApp={singleApp}></AppsChart>
       <hr className="text-black/60" />
       <div className="p-2 mb-5">
-        <span className="text-black/70 font-bold text-xl">Description : </span>
+        <span className="text-black/90 font-bold text-xl">Description : </span>
         {singleApp.description}
       </div>
     </div>
