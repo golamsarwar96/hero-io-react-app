@@ -23,7 +23,9 @@ const Apps = ({ appsData }) => {
         Explore All Trending Apps On The Market Developed By Us.
       </p>
       <div className="grid md:grid-cols-4 grid-cols-1 gap-3 mt-5 p-2">
-        <Suspense fallback={<span>Loading</span>}>
+        <Suspense
+          fallback={<span class="loading loading-spinner text-accent"></span>}
+        >
           {appsData.slice(0, 8).map((app) => (
             <SingleApp key={app.id} app={app}></SingleApp>
           ))}
